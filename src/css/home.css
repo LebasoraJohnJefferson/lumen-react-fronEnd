@@ -1,0 +1,61 @@
+*{
+    color:white;
+}
+
+.home-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+}
+
+.content-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    color:#0eaf1c;
+    font-size: 7rem;
+}
+
+.login,
+.register{
+    cursor:pointer;
+    width:20rem;
+    display:flex;
+    font-size: 1.3rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3rem;
+    margin:5px 0px;
+    height: 2.5rem;
+    text-decoration: none;
+    color:white;
+}
+
+.login{
+    background: #0eaf1c;
+}
+
+.register{
+    background:rgb(224, 4, 176);
+}
+
+.login:hover{
+    background: rgb(29, 245, 47);
+}
+
+.register:hover{
+    background: rgb(253, 59, 188);
+}
+
+.selector{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr;
+}

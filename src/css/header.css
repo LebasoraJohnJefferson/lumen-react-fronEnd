@@ -1,0 +1,19 @@
+.header-container{
+    display:flex;
+    padding-top:10px;
+    margin:10px 30px;
+}
+
+.header-link{
+    text-decoration: none;
+    font-size: 1.1rem;
+    height: 2rem; width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3rem;
+}
+
+.header-link:hover{
+    background: #352861;
+}
