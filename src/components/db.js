@@ -1,3 +1,3 @@
 export function DB(){
-    return 'https://lebs1996.000webhostapp.com';
+    return 'https://blooming-forest-49988.herokuapp.com';
 }
