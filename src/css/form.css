@@ -37,6 +37,9 @@ form{
 
 input{
     width:80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 input[type=submit]{
