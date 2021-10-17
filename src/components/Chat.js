@@ -4,8 +4,9 @@ import { useLocation } from 'react-router'
 import '../css/chat.css'
 import { Link } from 'react-router-dom'
 import {DB} from './db'
+import Login from './Login'
 
-const Chat=()=> {
+const Data=()=> {
     const URL = DB();
     const [messagesApi,setMessagesApi] = useState([])
     const [text,setText]=useState('')
@@ -62,6 +63,13 @@ const Chat=()=> {
             </form>
         </div>
     )
+}
+
+const Chat = ()=>{  
+    const location = useLocation()  
+    return <>
+        { location.state!==undefined ? <Data /> : <Login />}
+    </>
 }
 
 export default Chat
