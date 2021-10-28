@@ -64,7 +64,7 @@ const Data=()=> {
         </div>
     )
 }
-
+// if data data does`nt exist, then redirect to login
 const Chat = ()=>{  
     const location = useLocation()  
     return <>
